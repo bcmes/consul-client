@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: meu-microservico
+  cloud:
+    consul:
+      config:
+        enabled: true
+      host: localhost
+      port: 8500
